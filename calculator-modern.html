@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Calculator</title>
+</head>
+<h1>Calaulator</h1>
+<!-- Giving Style -->
+<style>
+	h1{
+		padding-top: 20px;
+		text-align: center;
+		color: white;
+	}
+	.calcc{
+		text-align: center;
+		padding-top: 20px;
+		background-color: black;
+	}
+	body{
+		background-color: #26a0d8;
+	}
+	input{
+		padding: 20px;
+		background-color: black;
+		color: white;
+		border-color: black;
+		font-size: 20px;
+		font-style: bold;
+		font-family: impact; 
+	}
+	#h{
+		font-family: comicsansms;
+		text-align: center;
+		font-size: 30px
+	}
+</style>
+
+<!-- Giving Java Script -->
+<script>
+	
+</script>
+
+<!-- Working On Div -->
+<body>
+<div class = "calcc">
+
+	<!-- Giving Input Inside The Form -->
+	<form name="calc">
+
+		<!-- Giving Input Box -->
+		<input id = "h" name = "conc">
+<br>
+		<!-- Giving Input Buttons With Spaces -->
+		<input type="button" value="1" onclick="calc.conc.value +='1'">
+		<input type="button" value="2" onclick="calc.conc.value +='2'">
+		<input type="button" value="3" onclick="calc.conc.value +='3'">
+
+<br>
+
+		<input type="button" value="4" onclick="calc.conc.value +='4'">
+		<input type="button" value="5" onclick="calc.conc.value +='5'">
+		<input type="button" value="6" onclick="calc.conc.value +='6'">
+
+<br>
+
+		<input type="button" value="7" onclick="calc.conc.value +='7'">
+		<input type="button" value="8" onclick="calc.conc.value +='8'">
+		<input type="button" value="9" onclick="calc.conc.value +='9'">
+
+<br>
+
+		<input type="button" value="0" onclick="calc.conc.value +='0'">
+		<input type="button" value="+" onclick="calc.conc.value +='+'">
+		<input type="button" value="-" onclick="calc.conc.value +='-'">
+
+<br>
+
+		<input type="button" value="/" onclick="calc.conc.value +='/'">
+		<input type="button" value="X" onclick="calc.conc.value +='*'">
+		<input type="button" value="=" onclick="calc.conc.value = eval(calc.conc.value)">
+
+<br>
+
+		<input type="button" value="Clear All" onclick="calc.conc.value =''">
+	</form>
+
+</div>
+</body>
+
+</html>
